@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "jest"
+    "test": "NODE_ENV=test jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "axios": "^1.9.0",
