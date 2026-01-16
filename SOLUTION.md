@@ -52,3 +52,20 @@ The API returned all items at once, which does not scale well.
   `{ items, total, page, limit, totalPages }`
 - Default page size set to 20 items
 - Search filtering works correctly with pagination
+
+**Steps**
+```bash
+# Backend
+cd backend
+npm install
+npm start     # Production
+npm run dev   # Development (nodemon)
+
+# Frontend
+cd frontend
+npm install
+npm start
+
+# Tests
+cd backend && npm test
+cd frontend && npm test
